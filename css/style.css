@@ -1,0 +1,75 @@
+@import url("reset.css");
+*{
+    color: red;
+}
+div{
+    color: springgreen;
+}
+.header_navigator,
+.footer_navigator{
+    color: blueviolet;
+}
+.contacts {
+    color: chartreuse;
+}
+.above_menu {
+    color: brown;
+}
+h1{
+    color: coral;
+}
+h2{
+    color: yellow;
+}
+h3,
+p{
+    color: deeppink;
+}
+/* [href]{
+    color: red;
+} */
+/* .content .link{
+    color: crimson;
+} */
+/* .chapter *{
+    color: orange;
+} */
+.chapter>p{
+    color: darkorange;
+}
+.link{
+    color: green;
+}
+p.link{
+    color: teal;
+}
+.text {
+    color: indigo;
+}
+[class^="menu"]{
+    color:darkgoldenrod;
+}
+[class$="item"]{
+    color: darkblue;
+}
+[class*="subitem"]{
+    color: aqua;
+}
+#above{
+    color: cornflowerblue;
+}
+.chapter ul{
+    color: burlywood;
+}
+.chapter~div{
+    color: dimgray;
+}
+.content+p{
+    color: black;
+}
+.text span{
+    color: pink;
+}
+.subchapter .text{
+    color: rgb(5, 26, 5);
+}
